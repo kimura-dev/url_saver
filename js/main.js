@@ -44,9 +44,6 @@ function saveBookmark(e){
   // Clear form
   document.getElementById('myForm').reset();
 
-  // Re-fetch bookmarks
-  fetchBookmarks();
-
   // Prevent form from submitting
   e.preventDefault();
 }
